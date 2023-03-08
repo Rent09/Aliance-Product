@@ -16,7 +16,6 @@ body {
 }
 .header {
   padding-top: 94px;
-  min-height: 100vh;
 }
 .header-image {
   background-image: url("../img/header-bg.jpg");
@@ -64,13 +63,12 @@ body {
   fill: #292d33;
 }
 .header-nav {
-  flex-basis: 100%;
   display: flex;
   list-style: none;
   justify-content: space-between;
-  width: 100%;
-  padding: 0 40px;
-  margin: 0;
+  width: 990px;
+  padding: 0 49px;
+  margin-right: 146px;
 }
 .header-nav-link {
   text-decoration: none;
@@ -83,7 +81,7 @@ body {
   display: flex;
   align-items: center;
   gap: 3px;
-  margin-right: 25px;
+  margin-right: 50px;
   margin-left: 25px;
 }
 .header-phone-link {
@@ -130,7 +128,7 @@ ul {
   font-family: "Bebas Neue";
   font-size: 80px;
   line-height: 120%;
-  margin: 30px 0;
+  margin: 22px 0 38px 0;
   letter-spacing: 0.8px;
   word-spacing: -1.6px;
 }
@@ -178,6 +176,10 @@ ul {
   font-size: 60px;
   line-height: 120%;
   color: #292d33;
+  margin: 25px 0 53px 0;
+}
+.steps-item-last {
+  max-width: 300px;
 }
 .steps {
   display: flex;
@@ -209,7 +211,7 @@ ul {
   line-height: 160%;
   color: #292d33;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 .steps-text {
   font-weight: 400;
@@ -227,6 +229,7 @@ ul {
   font-size: 16px;
   line-height: 160%;
   color: #5c8ee6;
+  gap: 20px;
 }
 .steps-link:before {
   content: "";
