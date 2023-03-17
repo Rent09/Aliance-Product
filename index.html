@@ -67,12 +67,12 @@
       </div>
       <div class="mobile-info">
         <svg class="vk-icon" width="24" height="24">
-          <use href="img/sprite1.svg#vk"></use>
+          <use href="img/sprite.svg#vk"></use>
         </svg>
       </div>
       <div class="mobile-info">
         <svg class="inst-icon" width="24" height="24">
-          <use href="img/sprite1.svg#inst"></use>
+          <use href="img/sprite.svg#inst"></use>
         </svg>
       </div>
     </div>
@@ -195,40 +195,55 @@
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">Cхема работы</h2>
-        <ol class="steps">
-          <li class="steps-item">
-            <span class="steps-num">01</span>
-            <h3 class="steps-title">Знакомство</h3>
-            <p class="steps-text">
-              Безусловно, сплочённость команды профессионалов позволяет оценить
-              значение форм воздействия.
-            </p>
-            <a href="#" class="steps-link">Оставить заявку</a>
-          </li>
-          <li class="steps-item">
-            <span class="steps-num">02</span>
-            <h3 class="steps-title">Заключение договора</h3>
-            <p class="steps-text">
-              Лишь интерактивные прототипы призваны к ответу.
-            </p>
-          </li>
-          <li class="steps-item">
-            <span class="steps-num">03</span>
-            <h3 class="steps-title">Производство</h3>
-            <p class="steps-text">
-              А также стремящиеся вытеснить традиционное производство,
-              нанотехнологии функционально разнесены на независимые элементы.
-            </p>
-          </li>
-          <li class="steps-item steps-item-last">
-            <span class="steps-num">04</span>
-            <h3 class="steps-title">Доставка</h3>
-            <p class="steps-text">
-              В частности, экономическая повестка сегодняшнего дня говорит о
-              возможностях приоритизации разума над эмоциями.
-            </p>
-          </li>
-        </ol>
+
+        <div class="swiper">
+          <ol class="steps swiper-wrapper">
+            <li class="steps-item swiper-slide">
+              <span class="steps-num">01</span>
+              <h3 class="steps-title">Знакомство</h3>
+              <p class="steps-text">
+                Безусловно, сплочённость команды профессионалов позволяет
+                оценить значение форм воздействия.
+              </p>
+              <a href="#" class="steps-link">Оставить заявку</a>
+            </li>
+            <li class="steps-item swiper-slide">
+              <span class="steps-num">02</span>
+              <h3 class="steps-title">Заключение договора</h3>
+              <p class="steps-text">
+                Лишь интерактивные прототипы призваны к ответу.
+              </p>
+            </li>
+            <li class="steps-item swiper-slide">
+              <span class="steps-num">03</span>
+              <h3 class="steps-title">Производство</h3>
+              <p class="steps-text">
+                А также стремящиеся вытеснить традиционное производство,
+                нанотехнологии функционально разнесены на независимые элементы.
+              </p>
+            </li>
+            <li class="steps-item steps-item-last swiper-slide">
+              <span class="steps-num">04</span>
+              <h3 class="steps-title">Доставка</h3>
+              <p class="steps-text">
+                В частности, экономическая повестка сегодняшнего дня говорит о
+                возможностях приоритизации разума над эмоциями.
+              </p>
+            </li>
+          </ol>
+          <div class="slider-buttons slider-buttons-blue">
+            <div class="slider-button-prev slider-button-blue">
+              <svg width="36" height="24">
+                <use href="img/sprite.svg#arrow-prev"></use>
+              </svg>
+            </div>
+            <div class="slider-button-next slider-button-blue">
+              <svg width="36" height="24">
+                <use href="img/sprite.svg#arrow-next"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <script src="js/swiper-bundle.min.js"></script>
