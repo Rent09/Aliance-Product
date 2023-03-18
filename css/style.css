@@ -44,6 +44,9 @@ body {
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
+.logo {
+  display: none;
+}
 .navbar {
   display: flex;
   align-items: center;
