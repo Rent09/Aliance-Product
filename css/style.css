@@ -565,7 +565,7 @@ ul {
   }
 
   .card-image-marks {
-    width: 30%;
+    width: 60%;
     height: auto;
   }
 }
@@ -595,5 +595,9 @@ ul {
   }
   .header-features-item {
     max-width: 18rem;
+  }
+  .card-image-marks {
+    width: 60%;
+    height: auto;
   }
 }
