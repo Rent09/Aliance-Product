@@ -50,6 +50,7 @@ body {
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
   left: 0;
@@ -357,6 +358,9 @@ ul {
   color: #828a99;
   margin-bottom: 24.625rem;
 }
+.card-text-marks {
+  margin: 0;
+}
 .card-title {
   font-weight: 400;
   font-size: 1.75rem;
@@ -372,9 +376,13 @@ ul {
 .card-marks {
   height: 280px;
   flex-basis: 50%;
+  display: flex;
+  align-items: center;
 }
 .card-image-marks {
-  width: 30%;
+  width: 180px;
+  height: 180px;
+  position: static;
 }
 @media (min-width: 1200px) and (max-width: 1920px) {
   html {
@@ -546,6 +554,19 @@ ul {
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-9px);
+  }
+
+  .card-marks {
+    height: 250px;
+  }
+
+  .card-content {
+    padding: 2.5rem 1rem;
+  }
+
+  .card-image-marks {
+    width: 30%;
+    height: auto;
   }
 }
 @media (max-width: 768px) {
