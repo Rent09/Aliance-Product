@@ -139,7 +139,6 @@ body {
 }
 .button {
   font-weight: 600;
-  font-size: 1.2rem;
   line-height: 160%;
   color: white;
   background: #3a71d1;
@@ -273,7 +272,7 @@ ul {
   margin-top: 0.625rem;
   margin-bottom: 1.25rem;
 }
-.steps-link {
+.button-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -282,7 +281,7 @@ ul {
   line-height: 160%;
   color: #5c8ee6;
 }
-.steps-link:before {
+.button-link:before {
   content: "";
   height: 0.0625rem;
   width: 2.5rem;
@@ -290,7 +289,7 @@ ul {
   margin-right: 1rem;
   transition: width 0.2s;
 }
-.steps-link:hover:before {
+.button-link:hover:before {
   width: 60px;
 }
 .slider-buttons {
@@ -417,6 +416,70 @@ ul {
 .trademark-card:hover .trademark-card-logo {
   fill: #5c8ee6;
 }
+.founder {
+  min-height: 41.25rem;
+  position: relative;
+}
+.founder-photo {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+}
+.founder-content {
+  max-width: 45rem;
+}
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.founder-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+.clients-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+.clients-wrapper {
+  display: flex;
+  gap: 3.125rem;
+}
+.clients-content {
+  flex-basis: 50%;
+}
+.clients-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.clients-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 10;
+}
+.clients-logo-item {
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.clients-logo {
+  max-width: 100%;
+  width: 70px;
+  height: 70px;
+}
 @media (min-width: 1200px) and (max-width: 1920px) {
   html {
     font-size: 14px;
@@ -471,6 +534,12 @@ ul {
   }
   .trademark-card {
     grid-template-columns: auto auto;
+  }
+  .founder-content {
+    max-width: 35rem;
+  }
+  .clients-content {
+    flex-basis: 60%;
   }
 }
 @media (max-width: 992px) {
@@ -604,6 +673,9 @@ ul {
   .logo-svg {
     max-width: 10rem;
   }
+  .clients-wrapper {
+    flex-direction: column;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -617,6 +689,11 @@ ul {
   }
   .card {
     flex-basis: 100%;
+  }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
   }
 }
 @media (min-width: 0px) and (max-width: 576px) {
@@ -663,5 +740,11 @@ ul {
   }
   .trademark-card {
     grid-template-areas: "logo title" "text text";
+  }
+  .clients-list {
+    columns: 1;
+  }
+  .clients-logo-item {
+    flex-basis: 50%;
   }
 }
