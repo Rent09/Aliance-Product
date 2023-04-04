@@ -493,7 +493,7 @@ ul {
 .blog-card {
   display: flex;
   position: relative;
-  min-height: 25rem;
+  min-height: 400px;
   flex-direction: column;
   text-decoration: none;
   color: #fff;
@@ -539,6 +539,107 @@ ul {
   align-items: center;
   margin-top: 30px;
   justify-content: space-between;
+}
+.bg-grey {
+  background: #f0f2f5;
+  margin-top: 9.375rem;
+}
+.section-cta {
+  position: relative;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+.cta-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 45rem;
+  width: 50%;
+}
+.cta-from-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.cta-form {
+  max-width: 52.5rem;
+}
+.cta-form-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+  margin-top: 1.375rem;
+  margin-bottom: 2.5rem;
+  max-width: 40rem;
+}
+.input-group {
+  position: relative;
+  height: 4.125rem;
+  flex-grow: 1;
+  background-color: #f0f2f5;
+}
+.input-group-wrapper {
+  display: flex;
+  gap: 1.875rem;
+}
+.input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.25rem 1.875rem;
+  border: 1px solid #e4e4eb;
+  background-color: transparent;
+}
+.input-group-label {
+  position: absolute;
+  cursor: text;
+  top: 1.5rem;
+  left: 1.975rem;
+  font-weight: 400;
+  font-size: 16px;
+  color: #828a99;
+  transition: top 0.2s, left 0.2s, font-size 0.2s;
+}
+.input:focus {
+  border: 1px solid #5c8ee6;
+  outline: 0;
+}
+.input:focus ~ .input-group-label,
+.input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
+  top: -0.5rem;
+  left: 1.25rem;
+  font-size: 0.625rem;
+  background-color: inherit;
+  padding: 0 10px;
+}
+.cta-form-footer {
+  display: flex;
+  margin-top: 1.875rem;
+  gap: 1.875rem;
+  align-items: center;
+}
+.cta-form-button {
+  flex-shrink: 0;
+}
+.notify {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+.notify-icon {
+  flex-shrink: 0;
+}
+.notify-text {
+  max-width: 23.75rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 160%;
+  color: #828a99;
 }
 @media (min-width: 1200px) and (max-width: 1920px) {
   html {
@@ -805,16 +906,59 @@ ul {
   .card-title {
     font-size: 20px;
   }
+  .trademark {
+    margin-bottom: 0;
+  }
   .trademark-card {
+    padding-left: 29px;
+    padding-top: 27px;
+    column-gap: 10px;
     grid-template-areas: "logo title" "text text";
+  }
+  .trademark-card-logo {
+    width: 100px;
+    height: 100px;
+  }
+  .trademark-card-title {
+    font-size: 18px;
+  }
+  .trademark-card-text {
+    margin-bottom: 9px;
+  }
+  .founder {
+    margin: 99px 0;
+  }
+  .founder-content {
+    padding: 0;
+    width: 345px;
+  }
+
+  .founder-content .section-title {
+    width: auto;
   }
   .clients-list {
     columns: 1;
   }
+  .clients {
+    margin-top: 0;
+  }
+  .clients-wrapper {
+    width: 345px;
+    padding-left: 9px;
+    gap: 0;
+  }
   .clients-logo-item {
     flex-basis: 50%;
+    padding: 30px 58px;
   }
-  .blog-card-image {
-    font-size: 50px;
+  .clients-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .clients-logo-list {
+    padding-top: 0;
+  }
+  .clients-logo-item:nth-last-child(1) {
+    display: none;
   }
 }
