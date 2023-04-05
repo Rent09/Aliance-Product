@@ -1010,58 +1010,13 @@ ul {
   .card-title {
     font-size: 20px;
   }
-  .trademark {
-    margin-bottom: 0;
-  }
   .trademark-card {
-    padding-left: 29px;
-    padding-top: 27px;
-    column-gap: 10px;
     grid-template-areas: "logo title" "text text";
-  }
-  .trademark-card-logo {
-    width: 100px;
-    height: 100px;
-  }
-  .trademark-card-title {
-    font-size: 18px;
-  }
-  .trademark-card-text {
-    margin-bottom: 9px;
-  }
-  .founder {
-    margin: 99px 0;
-  }
-  .founder-content {
-    padding: 0;
-    width: 345px;
-  }
-  .founder-content .section-title {
-    width: auto;
   }
   .clients-list {
     columns: 1;
   }
-  .clients {
-    margin-top: 0;
-  }
-  .clients-wrapper {
-    width: 345px;
-    padding-left: 9px;
-    gap: 0;
-  }
   .clients-logo-item {
     flex-basis: 50%;
-    padding: 30px 58px;
-  }
-  .clients-logo {
-    width: 50px;
-    height: 50px;
-  }
-  .clients-logo-list {
-    padding-top: 0;
-  }
-  .clients-logo-item:nth-last-child(1) {
-    display: none;
   }
 }
