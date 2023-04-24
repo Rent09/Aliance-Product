@@ -196,7 +196,7 @@
         </div>
       </div>
     </header>
-    <section class="section section section-light">
+    <section class="section">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">Cхема работы</h2>
