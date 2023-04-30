@@ -245,7 +245,7 @@
         <p class="modal-text">
         Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <button type="submit" class="button modal-form-button phone-mask">Отправить заявку</button>
+        <button type="submit" class="button modal-form-button phone-mask">Вернуться на главную</button>
       </div>
     </div>
     <script src="js/swiper-bundle.min.js"></script>
