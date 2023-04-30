@@ -233,6 +233,9 @@
     </div>
     <div class="modal" id="alert-modal">
       <div class="modal-dialog">
+      <svg class="modal-thanks-image" width="360" height="310">
+            <use href="img/sprite.svg#thanks-modal"></use>
+          </svg>
         <h2 class="modal-title">Спасибо за заявку!</h2>
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="close-icon" width="24" height="24">
@@ -242,6 +245,7 @@
         <p class="modal-text">
         Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
+        <button type="submit" class="button modal-form-button phone-mask">Отправить заявку</button>
       </div>
     </div>
     <script src="js/swiper-bundle.min.js"></script>

@@ -171,9 +171,12 @@ forms.forEach((form) => {
         errorMessage: "Укажите телефон",
       },
     ])
+
     .onSuccess((event) => {
       const thisForm = event.target;
       const formData = new FormData(thisForm);
+      console.log("форма отправлена");
+
       const ajaxSend = (formData) => {
         fetch(thisForm.getAttribute("action"), {
           method: thisForm.getAttribute("method"),
@@ -194,7 +197,7 @@ forms.forEach((form) => {
               }
             });
           } else {
-            alert(response.statusText);
+            alert("Текст ошибки: ".response.statusText);
           }
         });
       };

@@ -853,6 +853,12 @@ ul {
   display: block;
   width: 100%;
 }
+.modal-thanks-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
 .breadcrumbs {
   margin: 0;
   padding: 0;
