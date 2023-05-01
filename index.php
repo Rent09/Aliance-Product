@@ -341,7 +341,11 @@
     </section>
     <?php $block_title = " собственные торговые марки"; include_once('./template-parts/trademarks-block.php')?>
     <section class="section founder">
-      <img src="img/founder.jpg" alt="founder" class="founder-photo" />
+      <picture class="founder-photo" >
+        <source type="image/webp" srcset="img/founder.webp">
+        <source type="image/webp" srcset="img/founder.jpg">
+        <img src="img/founder.jpg" alt="founder">
+</picture>
       <div class="container">
         <div class="founder-content-wrapper">
           <div class="founder-content">
@@ -440,31 +444,67 @@
           </div>
           <div class="clients-logo-list">
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+               <picture class="client-logo" >
+        <source type="image/webp" srcset="img/client.webp">
+        <source type="image/webp" srcset="img/client.png">
+        <img src="img/client.png" alt="client">
+</picture>
             </a>
           </div>
         </div>
