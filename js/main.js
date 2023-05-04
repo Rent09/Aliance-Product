@@ -5,6 +5,8 @@ const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const isFront = document.body.classList.contains("front-page");
 
+console.log(1);
+
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
 };
