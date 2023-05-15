@@ -16,12 +16,12 @@
     <title><?= $page_title ?>- Aliance Production</title>
   </head>
   <body>
-  <section class="section section-light">
+  <!--<section class="section section-light">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">О компании</h2>
 </div>
-</section>
+</section>-->
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">

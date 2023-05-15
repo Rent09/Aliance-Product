@@ -1,4 +1,4 @@
-?php 
+<?php 
  $page_title = 'Автомобильная химия';
  $header_style = 'header-section-bg';
  include_once('header-page.php');?>
